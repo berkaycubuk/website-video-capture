@@ -1,0 +1,16 @@
+{
+  "name": "website-video-capture",
+  "version": "1.0.0",
+  "description": "Capture sharp 4K/60fps scrolling videos of website pages, with live-canvas (e.g. animations) support via Playwright clock control.",
+  "type": "commonjs",
+  "bin": {
+    "webcap": "index.js"
+  },
+  "scripts": {
+    "capture": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0"
+  },
+  "license": "MIT"
+}

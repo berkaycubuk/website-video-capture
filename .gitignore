@@ -1,0 +1,36 @@
+# --- Universal ---
+.DS_Store
+*.log
+tmp/
+dist/
+build/
+
+# --- Secrets / local config (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# --- Local data (never commit) ---
+*.db
+*.sqlite
+*.sqlite3
+*.lock
+
+# --- Go ---
+/bin/
+*.out
+*.test
+coverage.*
+/webcap
+/website-video-capture
+
+# --- Vanilla TS / node tooling ---
+node_modules/
+.vite/
+*.tsbuildinfo
+
+# --- Project output (captures, frames, stills, videos) ---
+out/
